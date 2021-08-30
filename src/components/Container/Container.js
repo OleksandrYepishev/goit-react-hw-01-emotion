@@ -1,7 +1,7 @@
 import { MainContainer } from './Container.styled';
 
-function Container({ children }) {
-  return <MainContainer>{children}</MainContainer>;
-}
-
-export default Container;
+export const Container = ({ children }) => (
+  <MainContainer>
+    {children}
+  </MainContainer>
+);

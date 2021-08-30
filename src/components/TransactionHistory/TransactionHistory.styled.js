@@ -22,7 +22,7 @@ td {
     width: 200px;
 }
 
- tr: nth-child(2n) {
+ tr: nth-of-type(2n) {
     background-color: rgb(216, 232, 247);
 }
 `;

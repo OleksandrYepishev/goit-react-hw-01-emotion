@@ -36,12 +36,12 @@ color: rgb(112, 107, 107)
 `;
 
 export const Stats = styled.ul`
-  background-color: rgb(218, 214, 214);
   list-style: none;
   display: flex;
   justify-content: space-between;
   margin: 0 40px;
   padding: 0;
+  background-color: rgb(218, 214, 214);
   box-shadow: 0px 3px 0px 2px rgba(0, 0, 0, 0.1),
     0px 6px 0px 4px rgba(0, 0, 0, 0.1), 0px 9px 0px 6px rgba(0, 0, 0, 0.1),
     0px 12px 0px 8px rgba(0, 0, 0, 0.1), 0px 15px 0px 10px rgba(0, 0, 0, 0.1),
