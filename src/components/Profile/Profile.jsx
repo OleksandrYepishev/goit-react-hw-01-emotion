@@ -12,6 +12,7 @@ export const Profile = props => {
     avatar,
     stats: { followers, views, likes },
   } = props;
+
   return (
     <ProfileCard>
       <Description>
